@@ -9,7 +9,7 @@ def test_greeting():
     age = 25
     # TODO Сформируйте нужную строку
     output = f"Привет, {name}! Тебе {age} лет."
-
+    print(output)
     # Проверяем результат
     assert output == "Привет, Анна! Тебе 25 лет."
 
@@ -40,11 +40,13 @@ def test_circle():
     r = 23
     # TODO сосчитайте площадь
     area = math.pi * r * r
+    print(f"Площадь окружности : {area}")
 
     assert area == 1661.9025137490005
 
     # TODO сосчитайте длину окружности
     length = math.pi * r * 2
+    print(f"Длинна окружности : {length}")
 
     assert length == 144.51326206513048
 
